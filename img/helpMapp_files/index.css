@@ -1,0 +1,236 @@
+.carousel{
+	margin-bottom: 1%;
+}
+
+h2.featurette-heading{
+	margin: 2%;
+	text-align: center;
+}
+
+
+
+hr.featurette-divider{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	border: dotted #505170;
+	background-color: #505170;
+	border-width:  0.11em ;
+}
+
+.paletaHM-text-header{
+	font-size: 4.5em;
+
+}
+
+.lastOne{
+	margin-bottom: 3em;
+  margin-top: 1%;
+}
+
+.socket-container{
+	margin-bottom: 2em;
+}
+
+.btn-socket{
+	background-color: #343D8D;
+	color: white;
+	border-color: #343D8D;
+}
+#timeline {
+  list-style: none;
+  position: relative;
+}
+
+#timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 0.3%;
+  background-color: #343D8D;
+  left: 50%;
+  margin-left: -0.3%;
+}
+
+#timeline .clearFix {
+  clear: both;
+  height: 0;
+}
+
+#timeline .timeline-badge {
+  color: #fff;
+  width: 75px;
+  height: 67%;
+  font-size: 1.7em;
+  text-align: center;
+  position: absolute;
+  top: 14%;
+  left: 50%;
+  margin-left: -3%;
+  background-color: #343D8D;
+
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  display: none
+}
+.timeline-badge1 span.timeline-balloon-date-day {
+  font-size: 1.2em;
+}
+
+.timeline-badge1 span.timeline-balloon-date-month {
+  font-size: .7em;
+}
+
+.timeline-badge.timeline-filter-movement {
+  background-color: #ffffff;
+  font-size: 1.7em;
+  height: 40%;
+  margin-left: -18px;
+  width: 3%;
+  top: 43%;
+}
+
+.timeline-badge.timeline-filter-movement a span {
+  color: #343D8D;
+  font-size: 1.3em;
+  top: -3%;
+}
+
+.timeline-badge.timeline-future-movement {
+  background-color: #ffffff;
+  height: 35px;
+  width: 35px;
+  font-size: 1.7em;
+  top: -16px;
+  margin-left: -18px;
+}
+
+.timeline-badge.timeline-future-movement a span {
+  color: #343D8D;
+  font-size: .9em;
+  top: 2px;
+  left: 1px;
+}
+
+#timeline .timeline-movement {
+  border-bottom: dashed 1px #343D8D;
+  position: relative;
+}
+
+#timeline .timeline-movement.timeline-movement-top {
+  height: 60px;
+}
+
+#timeline .timeline-movement .timeline-item {
+  padding: 1.5% 0;
+}
+
+#timeline .timeline-movement .timeline-item .timeline-panel {
+  border: 1px solid #d4d4d4;
+  border-radius: 3px;
+  background-color: #343D8D;
+  color: #666;
+  padding: 10px;
+  position: relative;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+
+
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#timeline .timeline-movement .timeline-item .timeline-panel .timeline-panel-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#timeline .timeline-movement .timeline-item .timeline-panel.credits .timeline-panel-ul {
+  text-align: right;
+}
+
+#timeline .timeline-movement .timeline-item .timeline-panel.credits .timeline-panel-ul li {
+  color: #666;
+}
+
+#timeline .timeline-movement .timeline-item .timeline-panel.credits .timeline-panel-ul li span.importo {
+  color: #ece242;
+  font-size: 1.3em;
+}
+
+#timeline .timeline-movement .timeline-item .timeline-panel.debits .timeline-panel-ul {
+  text-align: left;
+}
+
+#timeline .timeline-movement .timeline-item .timeline-panel.debits .timeline-panel-ul span.importo {
+  color: #ece242;
+  font-size: 1.3em;
+}
+
+.labels{
+  margin: 0;
+}
+
+/* Editado*/
+
+#myCarousel img{
+  display:none;
+}
+
+#background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+
+  background-size: cover;
+}
+
+.btn.btn-info.btn-socket{
+  display:none;
+}
+
+.img-circle:hover{
+  opacity: 0.6;
+  cursor:pointer;
+}
+
+#timeline .timeline-movement .timeline-item .row {
+  padding-left: 30%;
+}
+
+#timeline .timeline-movement .timeline-item .row.derecho {
+  padding-left: 5%;
+  padding-right: 25%;
+}
+
+#timeline .timeline-movement .timeline-item.derecho{
+  padding-left: 5.5%;
+}
+
+.timeline-badge1{
+  color: #fff;
+  width: 75px;
+  font-size: 1.7em;
+  text-align: center;
+  position: relative;
+  margin-left: -1%;
+  background-color: #343D8D;
+
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  
+}

@@ -1,0 +1,149 @@
+html,body{
+
+margin:0px;
+
+height:100%;
+
+}
+
+.crappers{
+	padding-bottom: 4em;
+}
+
+
+#quiero-ser-voluntario{
+	padding-left: 25%;
+
+}
+
+.radio-inline{
+	margin-left: 9%;
+}
+
+.entrada  {
+	margin-left: 15%;
+	padding-right: 25%;
+
+}
+#sel1{
+	margin-left: 9%;
+}
+
+#cedula{
+	margin-left: 17.5%;
+}
+
+#correo {
+	margin-left: 17.5%;
+}
+
+#telfono {
+	margin-left: 15.5%;
+}
+.form-group{
+	margin-top: 2em;
+}
+
+.sender{
+	margin-left: 30%;
+}
+
+.aligner{
+	text-align: center;
+}
+
+#page-wrapper div div  div.carousel-inner div img {
+	width: 100%;
+	height: 43em;
+
+}
+
+
+#table{
+	display: table-cell;
+}
+.caption_st{
+	position: absolute;
+	display: table;
+  	bottom: 0.1em;
+  	z-index: 10;
+  	height: 11em;
+	vertical-align: center;
+  	color: #fff;
+  	text-align: center;
+  	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+
+}
+
+#divCedula, #telefonodiv{
+	display: none;
+}
+
+
+
+label.control-label, .labels{
+	padding-left: 0;
+	padding-right: 0;
+	width: 24%;
+	
+}
+
+div.form-group{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.entrada{
+	margin-left: 0;
+	width: 50%;
+	padding-left: 1%;
+	padding-right: 2%;
+}
+
+#correo{
+	margin-left: 0;
+}
+
+#sexo, #tipo_sangre, #habilidad{
+	width: 50%;
+}
+
+#registroBoton{
+	margin-top: 3%;
+	margin-left: 12%;
+}
+
+#h2title{
+	padding-left: 24%;
+	margin-top: 7%;
+}
+
+#quiero-ser-voluntario{
+	padding-left: 25%;
+	
+}
+
+#cub{
+	margin-top:2%;
+}
+
+.col-lg-4:hover img{
+	opacity:0.6;
+	cursor:pointer;
+}
+
+.irClass{
+	display: none;
+}
+
+div.carrusel_vol{
+	margin-top: 4%;
+	padding-left: 1.5%;
+}
+
+hr.featurette-divider{
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
