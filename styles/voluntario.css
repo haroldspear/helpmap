@@ -139,11 +139,48 @@ div.form-group{
 }
 
 div.carrusel_vol{
-	margin-top: 4%;
-	padding-left: 1.5%;
+	margin-top: 6%;
+	padding-left: 3.5%;
 }
 
 hr.featurette-divider{
 	margin-top: 0%;
 	margin-bottom: 0%;
 }
+
+a#aboutus, p.h4.labels{
+	width: 100%;
+}
+
+.btn.btn-default.sender{
+	margin-bottom: 15%;
+}
+
+form .h4.labels, form .h4.control-label{
+	font-size: 1.5em;
+}
+
+@media screen and (max-width:500px) {
+	.carousel-inner, #cub{
+		display:none;
+	}
+
+	form#quiero-ser-voluntario{
+		padding-left: 5%;
+	}
+
+	input.entrada, #sexo, #habilidad, #tipo_sangre{
+		width: 55%;
+		margin-left: 2%;
+
+	}
+	form .h4.labels, form .h4.control-label{
+		margin-right: 10%;
+		width: 24%;
+		font-size: 1.2em;
+	}
+
+
+
+}
+
