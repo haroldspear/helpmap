@@ -1,6 +1,18 @@
+h1{
+	width: 100%;
+	font-size: 3.5em;
+	text-align: center;
+	padding-top: 50px;
+}
+
 h2{
 	border-top-right-radius: 5%;
 	border-bottom-right-radius: 5%;
+	width: 100%;
+	font-size: 3.5em;
+	text-align: center;
+
+
 }
 
 .donar-left h2 {
@@ -11,4 +23,161 @@ h2{
  	height: 480px;		
 	width: 600px;
 	margin: 5%;
-}		
+}
+#perks1 li{
+	width: 46%;
+	float: left;
+	display: block;
+	text-align: center;
+	margin: 2%;
+}
+#perks1 li.wide{
+	width: auto;
+	margin: 10px 20%;
+}
+
+.amount{
+	font-family: proxima-nova, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.amount, .btn{
+	font-size: 3.5em;
+	color: #1748b2;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 1.5rem;
+}
+
+.btn {
+	border: 1px solid #dcdcdc;
+	margin: 0 2% 10px;
+	padding: 0;
+	display: block;
+	float: left;
+	color: #ece242;
+	font-size: 1.7em;
+	background-color:#1748b2; 
+
+}
+
+#perks1 .btn{
+	width: 100%;
+}
+
+
+#perks1 li {
+    width: 18%;
+}
+
+ul{
+	margin-left: 4%;
+}
+
+#prefooter{
+	margin-top: 16%;
+}
+
+#perks1 li{
+	margin-bottom: 0%;
+}
+
+li p{
+	font-size: 1.3em;
+}
+
+.btn:hover{
+	color:#ece242;
+}
+
+.btn:hover, .amount:hover{
+	cursor:initial;
+}
+
+form{
+	margin-left: 38%;
+	margin-top: 0%;
+	margin-bottom: 5%;
+}
+
+#donaciones{
+	margin-left: 22%;
+	width: 56%;
+}
+
+a.labels.h4{
+	width: 100%;
+}
+
+@media screen and (max-width: 1328px){
+	#donaciones{
+		margin-left: 12%;
+		width: 76%;
+	}
+
+	form{
+		margin-left: 30%;
+		margin-top: 0%;
+		margin-bottom: 5%;
+	}
+	.btn{
+		font-size: 1.3em;	
+	}
+
+
+}
+
+@media screen and (max-width: 1000px){
+	#donaciones{
+		margin-left: 2%;
+		width: 96%;
+	}
+
+	#valores, ul{
+		margin-left: 0%;
+	}
+
+	form{
+	margin-left: 25%;
+	margin-top: 0%;
+	margin-bottom: 5%;
+	}
+
+	.btn{
+		font-size: 1em;	
+	}
+
+}
+
+@media screen and (max-width: 800px){
+	#perks1 li{
+		width: 40%;
+		margin-bottom: 3%;
+		margin: 1%;
+		margin-bottom:0%;
+	}
+
+	#valores, ul, li{
+		margin-left: 2%;
+	}
+
+	form{
+		margin-left: 0%;
+		margin-top: 0%;
+		margin-bottom: 5%;
+	}
+	form input{
+		display: block;
+		margin: auto;
+	}
+
+	.btn{
+		font-size: 1em;	
+	}
+
+	#usd20{
+		clear: both;
+	}
+
+}

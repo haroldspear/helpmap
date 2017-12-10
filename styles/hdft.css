@@ -41,7 +41,7 @@ body {
 }
 
 .navbar-inverse .navbar-toggle:hover {
-	background-color: #212a85;
+	background-color: #1748b2;
 }
 
 .header-icon {
@@ -54,16 +54,16 @@ body {
 }
 
 .dropdown-toogle{
-	background-color: #212a85; 
+	background-color: #1748b2; 
 }
 
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-	background-color: #212a85;
+	background-color: #1748b2;
 	opacity: 0.8;
 }
 
 .dropdown-menu>li>a{
-    color: #ece242;
+    color: #1748b2;
 }
 
 .dropdown-menu>li>a:hover{
@@ -74,3 +74,18 @@ body {
 .dropdown-menu{
 	background-color: #212a85;
 }
+
+input{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+select{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
