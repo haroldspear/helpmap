@@ -1,0 +1,15 @@
+{
+    "usaurios": [
+        {
+            "nombres": "Nombre",
+            "apellidos": "Apellido",
+            "usuario": "usuario",
+            "contrasena": "contra",
+            "sexo": "sexo",
+            "tiposangre": "tiposangre",
+            "correo": "correo@mail.com",
+            "habilidad": "habilidad"
+            
+        }
+    ]
+}

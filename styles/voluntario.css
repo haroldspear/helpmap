@@ -23,6 +23,7 @@ height:100%;
 .entrada  {
 	margin-left: 15%;
 	padding-right: 25%;
+	color:black;
 
 }
 #sel1{
@@ -108,6 +109,7 @@ div.form-group{
 
 #sexo, #tipo_sangre, #habilidad{
 	width: 50%;
+	color: black;
 }
 
 #registroBoton{
@@ -154,6 +156,8 @@ a#aboutus, p.h4.labels{
 
 .btn.btn-default.sender{
 	margin-bottom: 15%;
+	color:black;
+	font-weight: bold;
 }
 
 form .h4.labels, form .h4.control-label{
