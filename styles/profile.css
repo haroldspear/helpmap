@@ -421,23 +421,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', end
 	color: #707070;
 	font-size: 20px;
 }
-/*-- copyright --*/
-.copyright{
+/*-- habilidad --*/
+.habilidad{
 width: 385px;
 margin: 10px auto;
 text-align: center;
 color: #787878;
 }
-.copyright p{
+.habilidad p{
 	margin-bottom: 8px;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=180, Color=#ffffff)";/*IE 8*/
 text-shadow: 0px 1px 0px #ffffff;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
 filter: progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=180, Color=#ffffff); /*IE 5.5-7*/
 -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=135, Color=#ffffff)";/*IE 8*/
 }
-.copyright a{
+.habilidad a{
 	color: #787878;
 }
-.copyright a:hover{
+.habilidad a:hover{
 	color: #1c1c1c;
+}
+
+#hab, #hab1{
+	color:black;
 }
