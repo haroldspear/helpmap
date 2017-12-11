@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "usaurios": [
         {
@@ -12,4 +13,20 @@
             
         }
     ]
+=======
+{
+    "usaurios": [
+        {
+            "nombres": "Nombre",
+            "apellidos": "Apellido",
+            "usuario": "usuario",
+            "contrasena": "contra",
+            "sexo": "sexo",
+            "tiposangre": "tiposangre",
+            "correo": "correo@mail.com",
+            "habilidad": "habilidad"
+            
+        }
+    ]
+>>>>>>> fb4e10963b9abc1667789441663fe256628649d8
 }
