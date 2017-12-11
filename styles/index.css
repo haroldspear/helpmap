@@ -452,3 +452,7 @@ hr.featurette-divider{
     display:block;
   }
 }
+
+.carousel-caption h1, .carousel-caption p{
+  display:none;
+}
