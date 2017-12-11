@@ -258,14 +258,18 @@ hr.featurette-divider{
 
 }
 
+#timeline{
+  display:none;
+}
+
 
 .ss-container{
     width: 100%;
     position: relative;
     text-align: left;
     float: left;
-  overflow: hidden;
-  padding-bottom: 500px;
+    overflow: hidden;
+    padding-bottom: 5%;
 }
 
 .ss-container:before{
@@ -306,14 +310,14 @@ hr.featurette-divider{
 .ss-container h2{
     font-size: 40px;
     text-transform: uppercase;
-    color: rgba(78,84,123,0.2);
-  text-shadow: 0px 1px 1px #fff;
-  padding: 20px 0px;
+    color: black;
+    text-shadow: 0px 1px 1px #fff;
+    padding: 20px 0px;
 }
 .ss-container h3{
     margin-top: 34px;
   padding: 10px 15px;
-  background: rgba(26, 27, 33, 0.6);
+  background:  #1748b2;
   text-shadow: 1px 1px 1px rgba(26, 27, 33, 0.8)
 }
 
@@ -378,7 +382,7 @@ hr.featurette-divider{
   width: 0px;
   height: 0px;
   border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
+  border-bottom: 10px solid transparent;
   content: '';
   position: absolute;
   top: 50%;
@@ -408,33 +412,43 @@ hr.featurette-divider{
 
 
 .ss-container h3 span{
-    color: rgba(255,255,255,0.8);
+    color: #ece242;
     font-size: 13px;
     display: block;
     padding-bottom: 5px;
 }
-.ss-container h3 a{
+.ss-container h3 p{
     font-size: 28px;
-    color: rgba(255,255,255,0.9);
+    color: #ece242;
     display: block;
-}
-.ss-container h3 a:hover{
-  color: rgba(255,255,255,1);
+    text-decoration: none;
 }
 
 
 .ss-circle-1{
-    background-image:url(../images/1.jpg);
+    background-image:url(../img/12.png);
 }
 .ss-circle-2{
-    background-image: url(../images/2.jpg);
+    background-image:url(../img/11.png);
 }
 .ss-circle-3{
-    background-image: url(../images/3.jpg);
+    background-image:url(../img/10.png);
+}
+.ss-circle-4{
+    background-image:url(../img/9.png);
+}
+.ss-circle-5{
+    background-image: url(../img/8.png);
+}
+.ss-circle-6{
+    background-image: url(../img/7.png);
 }
 
-.ss-container{
-  display:none;
+@media screen and (max-width: 735px){
+  .ss-container{
+    display:none;
+  }
+  #timeline{
+    display:block;
+  }
 }
-
-

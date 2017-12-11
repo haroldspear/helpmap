@@ -35,7 +35,7 @@ $("#quiero-ser-voluntario").submit(function(e){
 		type: "get",
 		url: "https://haroldspear.github.io/helpmapp/data/usuarios.json",
 		dataType: "json",
-		cahe: false,
+		cache: false,
 		success:function(resp){
 			$(resp.usaurios).each(function(index,value){
 				if(json.usuario==value.usuario){

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
     "usaurios": [
         {
@@ -11,22 +10,18 @@
             "correo": "correo@mail.com",
             "habilidad": "habilidad"
             
-        }
-    ]
-=======
-{
-    "usaurios": [
-        {
-            "nombres": "Nombre",
-            "apellidos": "Apellido",
-            "usuario": "usuario",
+        },
+                {
+            "nombres": "Harold Ricardo",
+            "apellidos": "Aragón Intriago",
+            "usuario": "haragon",
             "contrasena": "contra",
-            "sexo": "sexo",
-            "tiposangre": "tiposangre",
-            "correo": "correo@mail.com",
-            "habilidad": "habilidad"
+            "sexo": "Masculino",
+            "tiposangre": "O+",
+            "correo": "haragon@espol.edu.ec",
+            "habilidad": "Culinarias"
             
         }
+
     ]
->>>>>>> fb4e10963b9abc1667789441663fe256628649d8
 }

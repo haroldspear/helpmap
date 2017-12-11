@@ -89,3 +89,8 @@ select{
 	border-bottom-right-radius: 10px;
 }
 
+body{
+	background-color:#f9f9f9;
+	background-image:url(https://dl.dropboxusercontent.com/s/02mc3x6o7qy7ssf/bg.jpg);
+	background-repeat:repeat;		
+}
